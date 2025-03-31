@@ -1,6 +1,8 @@
 import jarvis from '../assets/jarvis.png';
-import ecommerce from '../assets/ecommerce-websites.jpg';
 import pavees from '../assets/pavees.jpg';
+import shop from '../assets/shop.jpg';
+import student_management_system from '../assets/student_management_system.webp';
+import social_media_community from '../assets/social_media_community.jpg';
 
 export default function Projects() {
 
@@ -12,14 +14,24 @@ export default function Projects() {
                 link: 'https://github.com/Binthia/Jarvis'
             },
             {
-                image: ecommerce,
-                description: '',
-                link: ''
+                image: shop,
+                description: 'Shop project developed using Django',
+                link: 'https://github.com/Binthia/Shop-Django'
             },
             {
                 image: pavees,
-                description: 'A real time website built using HTML, CSS, JS',
-                link: 'https://github.com/Binthia/Pavee-s-Website'
+                description: 'A real time website developed using HTML, CSS, JS',
+                link: 'https://paveesmilk.com'
+            },
+            {
+                image: student_management_system ,
+                description: 'Student management system project built using Python, MySQL',
+                link: 'https://github.com/Binthia/student_management_system'
+            },
+            {
+                image: social_media_community ,
+                description: 'Social media community project built using ReactJS, Tailwind CSS, Django, MySQL',
+                link: 'https://github.com/Binthia/social-media-community'
             }
         ]
     }
